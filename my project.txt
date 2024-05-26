@@ -1,5 +1,4 @@
-Web App Specifications
-Image upload API: You can use a simple REST API to allow users to upload their images. The API endpoint should accept POST requests with the image file attached as form data. Here's an example of how you might implement this using Flask, a popular Python web framework:
+# Web App Specifications Image upload API: You can use a simple REST API to allow users to upload their images. The API endpoint should accept POST requests with the image file attached as form data. Here's an example of how you might implement this using Flask, a popular Python web framework:
 
 from flask import Flask, request
 from PIL import Image
@@ -21,7 +20,7 @@ def upload_image():
 
 
 
-Web Interface: You can create a simple web interface using HTML, CSS, and JavaScript. Here's a basic example:
+# Web Interface: You can create a simple web interface using HTML, CSS, and JavaScript. Here's a basic example:
 
 
 <!DOCTYPE html>
@@ -54,9 +53,8 @@ Web Interface: You can create a simple web interface using HTML, CSS, and JavaSc
 </body>
 </html>
 
-Backend Framework: As you've mentioned, Django is a good choice for the backend. You can use it to handle the image upload and processing logic.
-Image Processing
-For image processing, you can use the OpenCV library, which is widely used for tasks like this. Here's a basic example of how you might extract the RGB values of the colors on the strip:
+# Backend Framework: As you've mentioned, Django is a good choice for the backend. You can use it to handle the image upload and processing logic.
+Image Processing For image processing, you can use the OpenCV library, which is widely used for tasks like this. Here's a basic example of how you might extract the RGB values of the colors on the strip:
 
 import cv2
 import numpy as np
